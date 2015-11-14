@@ -1,3 +1,3 @@
 # foodme
 
-### Check us out (here)[http://thewashingtonredskins.github.io/foodme]!
+### Check us out [here](http://thewashingtonredskins.github.io/foodme)!
