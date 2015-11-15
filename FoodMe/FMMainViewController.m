@@ -58,8 +58,19 @@
                 
                 if(error) {
                     NSLog(@"ERROR!!! %@", error);
+                    
+                    UIAlertController* alertVw = [UIAlertController alertControllerWithTitle:@"Sorry!" message:@"No open businesses were found with your parameters." preferredStyle:UIAlertControllerStyleAlert];
+                    [alertVw addAction:[UIAlertAction actionWithTitle:@"Try Again." style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                        
+                        [(FMTopLevelViewController *)self.presentingViewController reset];
+                    }]];
+                    
+                    [self dismissViewControllerAnimated:YES completion:^{
+                        [self presentViewController:alertVw animated:NO completion:nil];
+                    }];
                     return;
                 }
+                
                 
                 NSLog(@"Top business: %@", biz);
                 _yelpData = biz;
