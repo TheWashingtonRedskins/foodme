@@ -1,0 +1,91 @@
+#Are you sitting or standing?
+Sitting
+Standing
+#What color do you feel like right now?
+Red
+Green
+Blue
+Orange
+Beige
+Purple
+Auburn
+Pink
+Indigo
+Maroon
+Chartreuse
+Brown
+Magenta
+Lavender
+Scarlet
+#Do your surroundings smell good?
+Yes
+No
+#Is your refrigerator running?
+Yes
+No
+#If you could be a fruit, what fruit would you be?
+Orange
+Apple
+Banana
+Papaya
+Cucumber
+Pineapple
+Mango
+Strawberry
+Grape
+Blackberry
+Blueberry
+Watermelon
+Raspberry
+#Pick: 1, 2, 3 or 3, 2, 1?
+1, 2, 3
+3, 2, 1
+#Are you wearing jewelry?
+Yes
+No
+#Are you wearing a hat?
+Yes
+No
+#At this moment, would you rather be painted by Van Gogh or Picasso?
+Van Gogh
+Picasso
+Bob Ross
+#Are your surroundings loud?
+Yes
+No
+#Describe your mood with a flower:
+Tulip
+Geranium
+Rose
+Daffodil
+Poppy
+#Is it pronounced Tomato or Tomato?
+Tomato
+Tomato
+#Do you want to play a game?
+Yes
+No
+#If your phone rings right now, would you answer it?
+Yes
+No
+#Choose a bear:
+Polar Bear
+Grizzly Bear
+John Cena
+Giant Panda
+Kodiak Bear
+#Could you beat John Cena in a fight using only the objects directly to your left and right?
+Yes
+No
+#Do you need a coat?
+Yes
+No
+#Do you feel your tongue in your mouth?
+Yes
+No
+#Click No if you don't want to click Yes. Click Yes otherwise.
+No
+Yes
+#Is it windy out?
+Yes
+No

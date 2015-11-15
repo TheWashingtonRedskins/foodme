@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352970BA70829A8EAA439C87 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9E4FA670FB0B25D8DB1C82 /* libPods.a */; };
+		435C16FE1BF73DF400FE3529 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C16FA1BF73DF400FE3529 /* NSURLRequest+OAuth.m */; };
+		435C16FF1BF73DF400FE3529 /* FMYelpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C16FB1BF73DF400FE3529 /* FMYelpHelper.m */; };
+		435C17021BF73E8100FE3529 /* SingletonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C17011BF73E8100FE3529 /* SingletonHelper.m */; };
+		435C17051BF7594B00FE3529 /* FMLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C17041BF7594B00FE3529 /* FMLocationHelper.m */; };
+		435FF3471BF6E8F200ADE8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3461BF6E8F200ADE8AE /* main.m */; };
+		435FF34A1BF6E8F200ADE8AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3491BF6E8F200ADE8AE /* AppDelegate.m */; };
+		435FF3501BF6E8F200ADE8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435FF34E1BF6E8F200ADE8AE /* Main.storyboard */; };
+		435FF3521BF6E8F200ADE8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435FF3511BF6E8F200ADE8AE /* Assets.xcassets */; };
+		435FF3551BF6E8F200ADE8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435FF3531BF6E8F200ADE8AE /* LaunchScreen.storyboard */; };
+		4380E4D11BF7982C00BD76D8 /* FMDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4380E4D01BF7982C00BD76D8 /* FMDataLoader.m */; };
+		4380E4D31BF798F800BD76D8 /* questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4380E4D21BF798F800BD76D8 /* questions.txt */; };
+		4380E4D51BF7997C00BD76D8 /* loadmessages.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4380E4D41BF7997C00BD76D8 /* loadmessages.txt */; };
+		9D8A01651BF6FF8100A84ABD /* FMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01641BF6FF8100A84ABD /* FMButton.m */; };
+		9D8A01691BF7064800A84ABD /* FMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01681BF7064800A84ABD /* FMLabel.m */; };
+		9D8A016F1BF794FE00A84ABD /* FMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A016E1BF794FE00A84ABD /* FMMainViewController.m */; };
+		9D8A01711BF7958400A84ABD /* Varela-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8A01701BF7956A00A84ABD /* Varela-Regular.ttf */; };
+		9D8A01741BF7A57300A84ABD /* FMTopLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01731BF7A57300A84ABD /* FMTopLevelViewController.m */; };
+		9D8A01771BF7A77E00A84ABD /* FMSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01761BF7A77E00A84ABD /* FMSetupViewController.m */; };
+		9D8A017A1BF7F5CC00A84ABD /* FMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01791BF7F5CC00A84ABD /* FMLoadingView.m */; };
+		9D8A017C1BF7F69000A84ABD /* pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8A017B1BF7F69000A84ABD /* pot.png */; };
+		9D8A017E1BF7F69600A84ABD /* steam.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8A017D1BF7F69600A84ABD /* steam.png */; };
+		9D8A01811BF7FB1B00A84ABD /* FMLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01801BF7FB1B00A84ABD /* FMLoadingViewController.m */; };
+		9D8A01841BF8166300A84ABD /* FMRestaurantView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01831BF8166300A84ABD /* FMRestaurantView.m */; };
+		9D8A01871BF8195900A84ABD /* FMRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A01861BF8195900A84ABD /* FMRestaurantViewController.m */; };
+		9DFBDC561BF6EC6200A37168 /* FMQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBDC551BF6EC6200A37168 /* FMQuestionViewController.m */; };
+		9DFBDC591BF6EF5800A37168 /* NSMutableArray_Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBDC581BF6EF5800A37168 /* NSMutableArray_Shuffling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2750B30E7A3808AF7FA96A9E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		435C16FA1BF73DF400FE3529 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		435C16FB1BF73DF400FE3529 /* FMYelpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYelpHelper.m; sourceTree = "<group>"; };
+		435C16FC1BF73DF400FE3529 /* FMYelpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYelpHelper.h; sourceTree = "<group>"; };
+		435C16FD1BF73DF400FE3529 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		435C17001BF73E8100FE3529 /* SingletonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonHelper.h; sourceTree = "<group>"; };
+		435C17011BF73E8100FE3529 /* SingletonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonHelper.m; sourceTree = "<group>"; };
+		435C17031BF7594B00FE3529 /* FMLocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLocationHelper.h; sourceTree = "<group>"; };
+		435C17041BF7594B00FE3529 /* FMLocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMLocationHelper.m; sourceTree = "<group>"; };
+		435FF3421BF6E8F200ADE8AE /* FoodMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435FF3461BF6E8F200ADE8AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		435FF3481BF6E8F200ADE8AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		435FF3491BF6E8F200ADE8AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		435FF34F1BF6E8F200ADE8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435FF3511BF6E8F200ADE8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435FF3541BF6E8F200ADE8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		435FF3561BF6E8F200ADE8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4380E4CF1BF7982C00BD76D8 /* FMDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDataLoader.h; sourceTree = "<group>"; };
+		4380E4D01BF7982C00BD76D8 /* FMDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDataLoader.m; sourceTree = "<group>"; };
+		4380E4D21BF798F800BD76D8 /* questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions.txt; sourceTree = "<group>"; };
+		4380E4D41BF7997C00BD76D8 /* loadmessages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loadmessages.txt; sourceTree = "<group>"; };
+		9D8A01631BF6FF8100A84ABD /* FMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMButton.h; path = "UI Elements/FMButton.h"; sourceTree = "<group>"; };
+		9D8A01641BF6FF8100A84ABD /* FMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMButton.m; path = "UI Elements/FMButton.m"; sourceTree = "<group>"; };
+		9D8A01661BF7039200A84ABD /* FMColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMColors.h; sourceTree = "<group>"; };
+		9D8A01671BF7064800A84ABD /* FMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMLabel.h; path = "UI Elements/FMLabel.h"; sourceTree = "<group>"; };
+		9D8A01681BF7064800A84ABD /* FMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMLabel.m; path = "UI Elements/FMLabel.m"; sourceTree = "<group>"; };
+		9D8A016D1BF794FE00A84ABD /* FMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMainViewController.h; sourceTree = "<group>"; };
+		9D8A016E1BF794FE00A84ABD /* FMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMainViewController.m; sourceTree = "<group>"; };
+		9D8A01701BF7956A00A84ABD /* Varela-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Varela-Regular.ttf"; sourceTree = "<group>"; };
+		9D8A01721BF7A57300A84ABD /* FMTopLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTopLevelViewController.h; sourceTree = "<group>"; };
+		9D8A01731BF7A57300A84ABD /* FMTopLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTopLevelViewController.m; sourceTree = "<group>"; };
+		9D8A01751BF7A77E00A84ABD /* FMSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMSetupViewController.h; sourceTree = "<group>"; };
+		9D8A01761BF7A77E00A84ABD /* FMSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMSetupViewController.m; sourceTree = "<group>"; };
+		9D8A01781BF7F5CC00A84ABD /* FMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMLoadingView.h; path = "UI Elements/FMLoadingView.h"; sourceTree = "<group>"; };
+		9D8A01791BF7F5CC00A84ABD /* FMLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMLoadingView.m; path = "UI Elements/FMLoadingView.m"; sourceTree = "<group>"; };
+		9D8A017B1BF7F69000A84ABD /* pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pot.png; sourceTree = "<group>"; };
+		9D8A017D1BF7F69600A84ABD /* steam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam.png; sourceTree = "<group>"; };
+		9D8A017F1BF7FB1B00A84ABD /* FMLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLoadingViewController.h; sourceTree = "<group>"; };
+		9D8A01801BF7FB1B00A84ABD /* FMLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMLoadingViewController.m; sourceTree = "<group>"; };
+		9D8A01821BF8166300A84ABD /* FMRestaurantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRestaurantView.h; sourceTree = "<group>"; };
+		9D8A01831BF8166300A84ABD /* FMRestaurantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRestaurantView.m; sourceTree = "<group>"; };
+		9D8A01851BF8195900A84ABD /* FMRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRestaurantViewController.h; sourceTree = "<group>"; };
+		9D8A01861BF8195900A84ABD /* FMRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRestaurantViewController.m; sourceTree = "<group>"; };
+		9DFBDC541BF6EC6200A37168 /* FMQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMQuestionViewController.h; path = QuestionView/FMQuestionViewController.h; sourceTree = "<group>"; };
+		9DFBDC551BF6EC6200A37168 /* FMQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMQuestionViewController.m; path = QuestionView/FMQuestionViewController.m; sourceTree = "<group>"; };
+		9DFBDC571BF6EF5800A37168 /* NSMutableArray_Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray_Shuffling.h; path = QuestionView/NSMutableArray_Shuffling.h; sourceTree = "<group>"; };
+		9DFBDC581BF6EF5800A37168 /* NSMutableArray_Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArray_Shuffling.m; path = QuestionView/NSMutableArray_Shuffling.m; sourceTree = "<group>"; };
+		BC9E4FA670FB0B25D8DB1C82 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F6A31789D6AD663BF8F6B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435FF33F1BF6E8F200ADE8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352970BA70829A8EAA439C87 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435FF3391BF6E8F100ADE8AE = {
+			isa = PBXGroup;
+			children = (
+				435FF3441BF6E8F200ADE8AE /* FoodMe */,
+				435FF3431BF6E8F200ADE8AE /* Products */,
+				8E331B0EF45FC5E52B37D88B /* Pods */,
+				54764A93F43A798EA00FC43B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		435FF3431BF6E8F200ADE8AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435FF3421BF6E8F200ADE8AE /* FoodMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435FF3441BF6E8F200ADE8AE /* FoodMe */ = {
+			isa = PBXGroup;
+			children = (
+				9D8A016A1BF70FAA00A84ABD /* Resources */,
+				9DFBDC521BF6EAA100A37168 /* Controllers */,
+				9DFBDC511BF6EA9900A37168 /* Models */,
+				9DFBDC501BF6EA8C00A37168 /* Views */,
+				435FF3481BF6E8F200ADE8AE /* AppDelegate.h */,
+				435FF3491BF6E8F200ADE8AE /* AppDelegate.m */,
+				435FF3511BF6E8F200ADE8AE /* Assets.xcassets */,
+				435FF3561BF6E8F200ADE8AE /* Info.plist */,
+				435FF3451BF6E8F200ADE8AE /* Supporting Files */,
+			);
+			path = FoodMe;
+			sourceTree = "<group>";
+		};
+		435FF3451BF6E8F200ADE8AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435FF3461BF6E8F200ADE8AE /* main.m */,
+				9D8A01661BF7039200A84ABD /* FMColors.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54764A93F43A798EA00FC43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9E4FA670FB0B25D8DB1C82 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E331B0EF45FC5E52B37D88B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6A31789D6AD663BF8F6B3 /* Pods.debug.xcconfig */,
+				2750B30E7A3808AF7FA96A9E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D8A01621BF6FEFF00A84ABD /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				9D8A01631BF6FF8100A84ABD /* FMButton.h */,
+				9D8A01641BF6FF8100A84ABD /* FMButton.m */,
+				9D8A01671BF7064800A84ABD /* FMLabel.h */,
+				9D8A01681BF7064800A84ABD /* FMLabel.m */,
+				9D8A01781BF7F5CC00A84ABD /* FMLoadingView.h */,
+				9D8A01791BF7F5CC00A84ABD /* FMLoadingView.m */,
+				9D8A01821BF8166300A84ABD /* FMRestaurantView.h */,
+				9D8A01831BF8166300A84ABD /* FMRestaurantView.m */,
+			);
+			name = "UI Elements";
+			sourceTree = "<group>";
+		};
+		9D8A016A1BF70FAA00A84ABD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D8A017D1BF7F69600A84ABD /* steam.png */,
+				9D8A017B1BF7F69000A84ABD /* pot.png */,
+				4380E4D41BF7997C00BD76D8 /* loadmessages.txt */,
+				4380E4D21BF798F800BD76D8 /* questions.txt */,
+				9D8A01701BF7956A00A84ABD /* Varela-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9DFBDC501BF6EA8C00A37168 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D8A01621BF6FEFF00A84ABD /* UI Elements */,
+				9DFBDC531BF6EBE800A37168 /* QuestionView */,
+				435FF34E1BF6E8F200ADE8AE /* Main.storyboard */,
+				435FF3531BF6E8F200ADE8AE /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9DFBDC511BF6EA9900A37168 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				435C16FC1BF73DF400FE3529 /* FMYelpHelper.h */,
+				435C16FB1BF73DF400FE3529 /* FMYelpHelper.m */,
+				435C17001BF73E8100FE3529 /* SingletonHelper.h */,
+				435C17011BF73E8100FE3529 /* SingletonHelper.m */,
+				435C16FD1BF73DF400FE3529 /* NSURLRequest+OAuth.h */,
+				435C16FA1BF73DF400FE3529 /* NSURLRequest+OAuth.m */,
+				435C17031BF7594B00FE3529 /* FMLocationHelper.h */,
+				435C17041BF7594B00FE3529 /* FMLocationHelper.m */,
+				4380E4CF1BF7982C00BD76D8 /* FMDataLoader.h */,
+				4380E4D01BF7982C00BD76D8 /* FMDataLoader.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9DFBDC521BF6EAA100A37168 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D8A016D1BF794FE00A84ABD /* FMMainViewController.h */,
+				9D8A016E1BF794FE00A84ABD /* FMMainViewController.m */,
+				9D8A01721BF7A57300A84ABD /* FMTopLevelViewController.h */,
+				9D8A01731BF7A57300A84ABD /* FMTopLevelViewController.m */,
+				9D8A01751BF7A77E00A84ABD /* FMSetupViewController.h */,
+				9D8A01761BF7A77E00A84ABD /* FMSetupViewController.m */,
+				9DFBDC541BF6EC6200A37168 /* FMQuestionViewController.h */,
+				9DFBDC551BF6EC6200A37168 /* FMQuestionViewController.m */,
+				9D8A017F1BF7FB1B00A84ABD /* FMLoadingViewController.h */,
+				9D8A01801BF7FB1B00A84ABD /* FMLoadingViewController.m */,
+				9D8A01851BF8195900A84ABD /* FMRestaurantViewController.h */,
+				9D8A01861BF8195900A84ABD /* FMRestaurantViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9DFBDC531BF6EBE800A37168 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				9DFBDC571BF6EF5800A37168 /* NSMutableArray_Shuffling.h */,
+				9DFBDC581BF6EF5800A37168 /* NSMutableArray_Shuffling.m */,
+			);
+			name = QuestionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435FF3411BF6E8F200ADE8AE /* FoodMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435FF3591BF6E8F200ADE8AE /* Build configuration list for PBXNativeTarget "FoodMe" */;
+			buildPhases = (
+				615A85F2BEC1ADCCE7BF9F2A /* Check Pods Manifest.lock */,
+				435FF33E1BF6E8F200ADE8AE /* Sources */,
+				435FF33F1BF6E8F200ADE8AE /* Frameworks */,
+				435FF3401BF6E8F200ADE8AE /* Resources */,
+				F080E41775035280E9BA8722 /* Copy Pods Resources */,
+				90F274FA43AD816EFB19131E /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodMe;
+			productName = FoodMe;
+			productReference = 435FF3421BF6E8F200ADE8AE /* FoodMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435FF33A1BF6E8F100ADE8AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jake Saferstein";
+				TargetAttributes = {
+					435FF3411BF6E8F200ADE8AE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 435FF33D1BF6E8F100ADE8AE /* Build configuration list for PBXProject "FoodMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435FF3391BF6E8F100ADE8AE;
+			productRefGroup = 435FF3431BF6E8F200ADE8AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435FF3411BF6E8F200ADE8AE /* FoodMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435FF3401BF6E8F200ADE8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4380E4D51BF7997C00BD76D8 /* loadmessages.txt in Resources */,
+				9D8A01711BF7958400A84ABD /* Varela-Regular.ttf in Resources */,
+				9D8A017C1BF7F69000A84ABD /* pot.png in Resources */,
+				435FF3551BF6E8F200ADE8AE /* LaunchScreen.storyboard in Resources */,
+				435FF3521BF6E8F200ADE8AE /* Assets.xcassets in Resources */,
+				4380E4D31BF798F800BD76D8 /* questions.txt in Resources */,
+				9D8A017E1BF7F69600A84ABD /* steam.png in Resources */,
+				435FF3501BF6E8F200ADE8AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		615A85F2BEC1ADCCE7BF9F2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90F274FA43AD816EFB19131E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F080E41775035280E9BA8722 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435FF33E1BF6E8F200ADE8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435C16FE1BF73DF400FE3529 /* NSURLRequest+OAuth.m in Sources */,
+				9D8A01841BF8166300A84ABD /* FMRestaurantView.m in Sources */,
+				9D8A01691BF7064800A84ABD /* FMLabel.m in Sources */,
+				435FF34A1BF6E8F200ADE8AE /* AppDelegate.m in Sources */,
+				9DFBDC591BF6EF5800A37168 /* NSMutableArray_Shuffling.m in Sources */,
+				435C17021BF73E8100FE3529 /* SingletonHelper.m in Sources */,
+				9D8A017A1BF7F5CC00A84ABD /* FMLoadingView.m in Sources */,
+				435FF3471BF6E8F200ADE8AE /* main.m in Sources */,
+				9D8A01651BF6FF8100A84ABD /* FMButton.m in Sources */,
+				9D8A01741BF7A57300A84ABD /* FMTopLevelViewController.m in Sources */,
+				9D8A01811BF7FB1B00A84ABD /* FMLoadingViewController.m in Sources */,
+				9D8A016F1BF794FE00A84ABD /* FMMainViewController.m in Sources */,
+				9D8A01871BF8195900A84ABD /* FMRestaurantViewController.m in Sources */,
+				435C17051BF7594B00FE3529 /* FMLocationHelper.m in Sources */,
+				9D8A01771BF7A77E00A84ABD /* FMSetupViewController.m in Sources */,
+				4380E4D11BF7982C00BD76D8 /* FMDataLoader.m in Sources */,
+				435C16FF1BF73DF400FE3529 /* FMYelpHelper.m in Sources */,
+				9DFBDC561BF6EC6200A37168 /* FMQuestionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		435FF34E1BF6E8F200ADE8AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435FF34F1BF6E8F200ADE8AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435FF3531BF6E8F200ADE8AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435FF3541BF6E8F200ADE8AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435FF3571BF6E8F200ADE8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435FF3581BF6E8F200ADE8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435FF35A1BF6E8F200ADE8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F6A31789D6AD663BF8F6B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackharvardteam.feedme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		435FF35B1BF6E8F200ADE8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2750B30E7A3808AF7FA96A9E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackharvardteam.feedme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435FF33D1BF6E8F100ADE8AE /* Build configuration list for PBXProject "FoodMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FF3571BF6E8F200ADE8AE /* Debug */,
+				435FF3581BF6E8F200ADE8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435FF3591BF6E8F200ADE8AE /* Build configuration list for PBXNativeTarget "FoodMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435FF35A1BF6E8F200ADE8AE /* Debug */,
+				435FF35B1BF6E8F200ADE8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435FF33A1BF6E8F100ADE8AE /* Project object */;
+}

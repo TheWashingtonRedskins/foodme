@@ -1,0 +1,19 @@
+PODS:
+  - Bolts/Tasks (1.5.0)
+  - OMGHTTPURLRQ/UserAgent (3.0.2)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - TDOAuth (1.1.2):
+    - OMGHTTPURLRQ/UserAgent
+
+DEPENDENCIES:
+  - Parse
+  - TDOAuth
+
+SPEC CHECKSUMS:
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  OMGHTTPURLRQ: 8376dc887d76a5a7e2a67881dc788f917a2f437c
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  TDOAuth: f7e356e834295b83c7b5066ee72a30f128c5f722
+
+COCOAPODS: 0.39.0
