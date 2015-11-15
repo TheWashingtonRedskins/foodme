@@ -187,7 +187,7 @@ static NSString * const kSearchLimit       = @"3";
 -(void)chooseRankingWithRadius: (double) meters andMealTime: (NSString *)mealString andMealPriceDesc: (NSString *)priceDesc
           andCompletionHandler: (void (^)(NSArray *bizzes, NSArray* rankings, NSError *error))completionHandler
 {
-    [[FMYelpHelper sharedInstance] queryRestsWithLocation:[FMLocationHelper sharedInstance].locality andRadiusInMeters:meters andTerm:mealString andLimit:5 andPriceDescription:priceDesc completionHandler:^(NSArray *results, NSError *error) {
+    [[FMYelpHelper sharedInstance] queryRestsWithLocation:[FMLocationHelper sharedInstance].locality andRadiusInMeters:meters andTerm:mealString andLimit:40 andPriceDescription:priceDesc completionHandler:^(NSArray *results, NSError *error) {
         
         NSLog(@"%@", results);
         
