@@ -335,9 +335,9 @@ static NSString * const kSearchLimit       = @"3";
     
     for (NSDictionary* biz in bizzes) {
         
-        int isClosed = [biz[@"is_closed"] intValue];
+        BOOL isClosed = [biz[@"is_closed"] boolValue];
         
-        if (isClosed == 0) {
+        if (isClosed == NO) {
             [toRet addObject:biz];
         }
     }

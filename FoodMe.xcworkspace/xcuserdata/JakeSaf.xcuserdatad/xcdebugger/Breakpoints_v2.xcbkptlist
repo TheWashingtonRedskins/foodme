@@ -195,46 +195,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FoodMe/FMMainViewController.m"
-            timestampString = "469267967.735308"
+            filePath = "FoodMe/FMYelpHelper.m"
+            timestampString = "469291966.708423"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "-answerChosen:WithQuestion:"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "-filterArray:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__50-[FMMainViewController answerChosen:WithQuestion:]_block_invoke117"
-                  moduleName = "FoodMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/JakeSaf/Desktop/Xcode/FoodMe/FoodMe/FMMainViewController.m"
-                  timestampString = "469268038.329309"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "120"
-                  endingLineNumber = "120"
-                  offsetFromSymbolStart = "461">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__50-[FMMainViewController answerChosen:WithQuestion:]_block_invoke_2"
-                  moduleName = "FoodMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/JakeSaf/Desktop/Xcode/FoodMe/FoodMe/FMMainViewController.m"
-                  timestampString = "469268038.329518"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "120"
-                  endingLineNumber = "120"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
