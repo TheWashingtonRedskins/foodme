@@ -65,9 +65,14 @@
                         [(FMTopLevelViewController *)self.presentingViewController reset];
                     }]];
                     
-                    [self dismissViewControllerAnimated:YES completion:^{
+                    if(self.presentedViewController) {
+                        [self dismissViewControllerAnimated:YES completion:^{
+                            [self presentViewController:alertVw animated:NO completion:nil];
+                        }];
+                    }
+                    else {
                         [self presentViewController:alertVw animated:NO completion:nil];
-                    }];
+                    }
                     return;
                 }
                 
@@ -83,10 +88,16 @@
                 
                 FMQuestionViewController* confirmVC = [[FMQuestionViewController alloc] initWithQuestion:questionStr answers:@[@"Great, let's go!", @"No thanks"]];
                 confirmVC.questionDelegate = self;
-                [self dismissViewControllerAnimated:YES completion:^{
-                    [self presentViewController:confirmVC animated:NO completion:nil];
-                }];
                 
+                if(self.presentedViewController) {
+                    
+                    [self dismissViewControllerAnimated:YES completion:^{
+                        [self presentViewController:confirmVC animated:NO completion:nil];
+                    }];
+                }
+                else {
+                    [self presentViewController:confirmVC animated:NO completion:nil];
+                }
             }];
         });
     }];
@@ -109,35 +120,30 @@
         FMRestaurantViewController* vc = [[FMRestaurantViewController alloc] initWithDictionary:_yelpData];
         NSLog(@"%@",self.presentedViewController);
         
-        [self dismissViewControllerAnimated:YES completion:^{
+        if(self.presentedViewController) {
+            
+            [self dismissViewControllerAnimated:YES completion:^{
+                [self presentViewController:vc animated:NO completion:nil];
+            }];
+        }
+        else {
             [self presentViewController:vc animated:NO completion:nil];
-        }];
+        }
+
     }
     else {
         
         [[FMYelpHelper sharedInstance] mutateCoefficientsOnRespinWithCategories:categories andDidLike:NO];
 
-        
-        [self dismissViewControllerAnimated:YES completion:^{
-//            [self chooseRestaurant];
-//            [self.presentingViewController dismissViewControllerAnimated:YES completion:^{
-//                [(FMTopLevelViewController *)self.presentingViewController reset];
-//                [self.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:^{
+        if(self.presentedViewController) {
             
-            NSLog(@"%@", self.presentingViewController.presentingViewController.presentingViewController.description);
-            NSLog(@"%@", self.presentingViewController.presentingViewController.description);
-            NSLog(@"%@", self.presentingViewController.description);
-            
-            [(FMTopLevelViewController *)self.presentingViewController reset];//dismissViewControllerAnimated:YES completion:^{
-//                [(FMTopLevelViewController *)self.presentingViewController reset];
-//                FMTopLevelViewController* topLvl = (FMTopLevelViewController *)self.presentingViewController;
-//                FMSetupViewController* vc = [[FMSetupViewController alloc] init];
-//                vc.setupDelegate = topLvl;
-//                [topLvl presentViewController:vc animated:NO completion:nil];
-//                
-//                NSLog(@"Restarting stuff");
-//            }];
-        }];
+            [self dismissViewControllerAnimated:YES completion:^{
+                [(FMTopLevelViewController *)self.presentingViewController reset];
+            }];
+        }
+        else {
+            [(FMTopLevelViewController *)self.presentingViewController reset];
+        }
     }
 }
 @end
